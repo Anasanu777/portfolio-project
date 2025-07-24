@@ -1,45 +1,40 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
+  padding: 20px;
+  background: #f0f0f0;
   color: #333;
 }
 
 header {
-  background-color: #004466;
-  color: white;
-  padding: 20px;
   text-align: center;
+  background: #004466;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
 
-section {
-  padding: 20px;
-  margin: 20px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.nav-buttons a {
+  padding: 10px 20px;
+  background: #0088cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-ul li {
-  padding: 5px 0;
+.nav-buttons a:hover {
+  background: #005577;
 }
 
 footer {
   text-align: center;
-  padding: 15px;
-  background-color: #004466;
-  color: white;
-}
-
-.profile-img {
-  max-width: 150px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 20px;
+  margin-top: 30px;
+  padding: 10px;
+  background: #eee;
 }

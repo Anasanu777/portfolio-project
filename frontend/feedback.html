@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Leave Your Feedback</h1></header>
+  <main>
+    <form action="http://127.0.0.1:8000/api/feedback/" method="post">
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br>
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br>
+      <label>Message:</label><br>
+      <textarea name="message" required></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <p>Email: <a href="mailto:aanu4655@gmail.com">aanu4655@gmail.com</a></p>
+  </footer>
+</body>
+</html>
